@@ -1,0 +1,26 @@
+{
+  "name": "touchandsell-arthurbarre",
+  "version": "1.0.0",
+  "description": "touch and sell© exercise",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurBarre/touchandsell-arthurbarre.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "arthurbarre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurBarre/touchandsell-arthurbarre/issues"
+  },
+  "homepage": "https://github.com/ArthurBarre/touchandsell-arthurbarre#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.19.0"
+  }
+}
