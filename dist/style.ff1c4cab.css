@@ -1,41 +1,45 @@
-*{
+* {
   box-sizing: border-box;
 }
+
 body {
   width: 100vw;
   height: 100vh;
   font-family: sans-serif;
-  overflow: hidden; 
+  overflow: hidden;
 }
-.line{
+
+.line {
   width: 100vw;
 }
-.message{
+
+.message {
   width: 80vw;
   margin: auto auto;
-  padding:2%;
+  padding: 2%;
   text-align: center;
 }
-.addContent{
+
+.addContent {
   background-color: #68C4CA;
   color: white;
-
 }
-.addUsers{
+
+.addUsers {
   background-color: #84CA9D;
   color: white;
-
 }
-.formations,.help{
+
+.formations, .help {
   background-color: #E5E5E5;
   color: black;
 }
 
-.dashboard{
+.dashboard {
   display: inline-grid;
   margin-left: 15%;
-
-.card {
+}
+.dashboard .card {
   width: 70vw;
   height: 15vh;
   border-radius: 6px;
@@ -43,14 +47,14 @@ body {
   display: flex;
   align-items: baseline;
 }
-.card>*{
+.dashboard .card > * {
   margin: auto 0;
-  margin-left:10%;
+  margin-left: 10%;
 }
-.icon{
+.dashboard .icon {
   width: 10%;
 }
-.text{
+.dashboard .text {
   font-size: 16px;
   width: 60%;
   word-wrap: break-word;
@@ -58,51 +62,52 @@ body {
   text-align: center;
   margin: auto auto;
 }
-}
 
-@media screen and (min-width:400px){
-  .text{
-    font-size: 17px!important;
+@media screen and (min-width: 400px) {
+  .text {
+    font-size: 17px !important;
   }
-  .message{
+
+  .message {
     font-size: 14px;
   }
 }
-
-@media screen and (min-width:500px){
-  .text{
-    font-size: 18px!important;
+@media screen and (min-width: 500px) {
+  .text {
+    font-size: 18px !important;
   }
-  .message{
+
+  .message {
     font-size: 16px;
   }
 }
-
-@media screen and (min-width:600px){
-  .dashboard{
+@media screen and (min-width: 600px) {
+  .dashboard {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 20px;
     grid-column-gap: 5rem;
     margin: 15% 10% 0 10%;
-}
-.card{
-  margin: 0;
-  width: 90%!important;
-}
-.icon{
-  width: 15%!important;
-}
-}
+  }
 
-@media screen and (min-width:800px){
-  .icon{
+  .card {
+    margin: 0;
+    width: 90% !important;
+  }
+
+  .icon {
+    width: 15% !important;
+  }
+}
+@media screen and (min-width: 800px) {
+  .icon {
     width: 10% !important;
   }
 }
-
-@media screen and (min-width:600px){
-  p{
+@media screen and (min-width: 600px) {
+  p {
     font-size: 18px;
   }
 }
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */
