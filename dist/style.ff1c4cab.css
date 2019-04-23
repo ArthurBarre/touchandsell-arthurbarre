@@ -1,38 +1,40 @@
-
-*{
+* {
   box-sizing: border-box;
 }
+
 body {
   width: 100vw;
   height: 100vh;
   font-family: sans-serif;
-  overflow: hidden; 
+  overflow: hidden;
 }
-.message{
+
+.message {
   width: 80vw;
   margin-left: 10%;
-  padding:2%;
+  padding: 2%;
 }
-.addContent{
+
+.addContent {
   background-color: #68C4CA;
   color: white;
-
 }
-.addUsers{
+
+.addUsers {
   background-color: #84CA9D;
   color: white;
-
 }
-.formations,.help{
+
+.formations, .help {
   background-color: #E5E5E5;
   color: black;
 }
 
-.dashboard{
+.dashboard {
   display: inline-grid;
   margin-left: 15%;
-
-.card {
+}
+.dashboard .card {
   width: 70vw;
   height: 15vh;
   border-radius: 6px;
@@ -40,36 +42,38 @@ body {
   display: flex;
   align-items: baseline;
 }
-.card>*{
+.dashboard .card > * {
   margin: auto 0;
-  margin-left:10%;
+  margin-left: 10%;
 }
-.icon{
+.dashboard .icon {
   width: 10%;
 }
-.text{
+.dashboard .text {
   font-size: 16px;
   width: 80%;
   padding: 2%;
   text-align: center;
   margin: auto auto;
 }
-}
 
-@media screen and (min-width:400px){
-  .text{
+@media screen and (min-width: 400px) {
+  .text {
     font-size: 18px;
   }
-  .message{
+
+  .message {
     font-size: 14px;
   }
 }
-
-@media screen and (min-width:500px){
-  .text{
+@media screen and (min-width: 500px) {
+  .text {
     font-size: 20px;
   }
-  .message{
+
+  .message {
     font-size: 16px;
   }
 }
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */
